@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+    .background {
+   
+     min-height: 100vh;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     position: static;
+     color: black;
+     
+
+    }
+
+    .background::before {
+
+        content: '';
+        background-image: url(fundo.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;   
+        opacity: .25;
+        background-color: black;
+        
+     }
+
+     h1 {
+
+        font-size: 40px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-style: italic;
+        text-align: center;
+        position: relative;
+        color: rgb(39, 107, 10);
+        
+       
+    
+     }
+
+
+     button {
+        display: block;
+        margin-bottom: 10px;
+        background-color: rgb(242, 248, 242);
+        color: rgb(39, 107, 10);
+        border: none;
+        padding: 10px 20px;
+        text-align: center;
+        text-decoration: none;
+        font-size: 18px;
+        cursor: pointer;
+        display: flex;
+        border-radius: 30px;
+        
+      }
+      
+      button:hover {
+        background-color: rgb(102, 165, 102)
+        
+      }
+
+      .container {
+
+        align-items: center;
+        padding-left: 550px;
+        background-color: rgb(204, 207, 205);
+        
+      }
+      
+
+
+
+
+      .video {
+   
+        min-height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: static;
+        color: black;
+        
+   
+       }
+   
+       .video::before {
+   
+           content: '';
+           background-image: url(fundo.png);
+           background-repeat: no-repeat;
+           background-size: cover;
+           position: absolute;
+           top: 0;
+           left: 0;
+           bottom: 0;
+           right: 0;   
+           opacity: .50;
+           background-color: black;
+           
+        }
+
+
+    .voltar {
+
+      padding-left: 600px;
+      background-color: rgb(181, 199, 186); 
+      
+      
+    }
+
+    .salmos-titulo {
+
+      align-items: center;
+      
+     
+      
+    }
+
+
+    .salmos{
+
+      color: black black;
+      font-size: 22px;
+      font-style: italic;
+      align-items: center;
+      text-align: center;
+      
+      
+      
+      
+      
+    }
+
+
+    .imagem1 {
+      float: right;
+      margin-right: 70px; /* Adicione uma margem direita para separar as imagens */
+      border-radius: 1000px;
+      
+    }
+  
+   .aniversario {
+
+       text-align: center;
+       color: rgb(7, 7, 7);
+       font-style: italic;
+       font-size: 22px;
+       background-color: rgb(134, 197, 134);
+       
+       
+
+   }
